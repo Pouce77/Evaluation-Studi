@@ -1,0 +1,12 @@
+#titleStyleNavBar{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(90, 172, 243);
+}
+
+body{
+  background: fixed;
+  background-image: url(photocross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
