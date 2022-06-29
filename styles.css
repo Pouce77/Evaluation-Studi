@@ -1,12 +1,36 @@
-#titleStyleNavBar{
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(90, 172, 243);
-}
-
 body{
   background: fixed;
-  background-image: url(photocross.png);
+  background: linear-gradient(to right, blue, purple);
   background-repeat: no-repeat;
   background-size: cover;
+}
+section{
+  background-color: rgba(240, 255, 255,0.5);
+  max-width: 50%;
+  max-height: 75%;
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+}
+.logo{
+  margin: 5px;
+}
+.logoimg{
+  max-width: 48px;
+  max-height: 48px
   
+}
+
+.imgsizecarousel{
+  max-height: 300px;
+  max-width: fit-content;
+}
+.carouselborder{
+  border-radius: 5px;
+  
+}
+.carouselboxstyle{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  max-height: 300px;
 }
