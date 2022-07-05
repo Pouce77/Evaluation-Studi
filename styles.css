@@ -4,13 +4,15 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-section{
-  background-color: rgba(240, 255, 255,0.5);
-  max-width: 50%;
-  max-height: 75%;
-  position: absolute;
-  margin: 10px;
-  padding: 10px;
+h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight:200 ;
+  color: white;
+  text-shadow: 2px 2px gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
 }
 .logo{
   margin: 5px;
@@ -22,8 +24,7 @@ section{
 }
 
 .imgsizecarousel{
-  max-height: 300px;
-  max-width: fit-content;
+  max-height: 80vh;
 }
 .carouselborder{
   border-radius: 5px;
@@ -32,5 +33,13 @@ section{
 .carouselboxstyle{
   margin-top: 15px;
   margin-bottom: 15px;
-  max-height: 300px;
+  ;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.btn{
+  margin-bottom: 5px;
 }
