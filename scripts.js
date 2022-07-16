@@ -3,5 +3,5 @@ button.addEventListener("click",clickbtn);
 
 function clickbtn(){
 
-    location.href='activites.html';
+    location.href='actualites.html';
 }

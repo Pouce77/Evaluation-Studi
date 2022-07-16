@@ -1,6 +1,6 @@
 body{
   background: fixed;
-  background: linear-gradient(to right, blue, purple);
+  background: linear-gradient(to right, rgb(161, 161, 179), rgb(169, 124, 169));
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,7 +19,6 @@ h1{
 .logoimg{
   max-width: 48px;
   max-height: 48px
-  
 }
 
 .imgsizecarousel{
@@ -41,4 +40,7 @@ h1{
 }
 .btn{
   margin-bottom: 5px;
+}
+.card{
+  box-shadow: 4px 4px 20px black;
 }
