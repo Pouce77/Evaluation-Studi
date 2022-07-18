@@ -3,6 +3,7 @@ body{
   background: linear-gradient(to right, rgb(161, 161, 179), rgb(169, 124, 169));
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 h1,h2{
   margin: 10px;
@@ -18,7 +19,8 @@ h1,h2{
 }
 .logoimg{
   max-width: 48px;
-  max-height: 48px
+  max-height: 48px;
+  border-radius: 50%;
 }
 
 .imgsizecarousel{
@@ -43,4 +45,43 @@ h1,h2{
 }
 .card{
   box-shadow: 4px 4px 20px black;
+}
+.actu{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+  width: 80%;
+  height: 80%;
+  background-color: bisque;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px black;
+}
+@keyframes changeSize {
+  0% { width: 100%; }
+  50%   { width: 75%; }
+  100% { width: 100%; }
+}
+.actuTitle{
+  color: rgb(249, 95, 95);
+}
+.imgContainer{
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.championnat{
+  max-width: 100%;
+  height:auto;
+  animation: changeSize 2s ease 0.5s 2;
+}
+@media screen and (max-width: 700px) {
+  
+  .imgContainer{
+    height: 200px;
+  }
 }
