@@ -16,7 +16,7 @@
     <!-- Barre de navigation bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="logo">
-        <a href="index.html">
+        <a href="index.php">
           <img class="logoimg" src="logoAS.png" alt="Logo de l'association">
         </a>
         </div>
