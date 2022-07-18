@@ -32,10 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="actualites.html">Acualités</a>
+              <a class="nav-link" href="actualites.php">Acualités</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Pub Association sportive.pdf" target="_blank">Inscription</a>
