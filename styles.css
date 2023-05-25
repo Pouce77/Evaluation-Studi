@@ -59,13 +59,13 @@ h1,h2{
   border-radius: 10px;
   box-shadow: 4px 4px 10px black;
 }
+.actuTitle{
+  color: rgb(249, 95, 95);
+}
 @keyframes changeSize {
   0% { width: 100%; }
   50%   { width: 75%; }
   100% { width: 100%; }
-}
-.actuTitle{
-  color: rgb(249, 95, 95);
 }
 .championnat{
   max-width: 100%;
