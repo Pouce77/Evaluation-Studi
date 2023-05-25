@@ -4,6 +4,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  font-family: 'Nunito',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 h1,h2{
   margin: 10px;
@@ -11,7 +12,6 @@ h1,h2{
   font-weight:200 ;
   color: white;
   text-shadow: 2px 2px gray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 .logo{
@@ -67,22 +67,22 @@ h1,h2{
 .actuTitle{
   color: rgb(249, 95, 95);
 }
+.championnat{
+  max-width: 100%;
+  height:auto;
+  animation: changeSize 2s ease 0.5s infinite;
+}
 .imgContainer{
-  height: 312px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.championnat{
-  max-width: 100%;
-  height:auto;
-  animation: changeSize 2s ease 0.5s 2;
-}
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 700px) {
   
   .imgContainer{
-    height: 200px;
+    height: 320px;
   }
 }
 footer{
